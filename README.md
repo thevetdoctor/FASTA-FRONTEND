@@ -36,8 +36,8 @@ FASTA APP will enhance the well-being by saving of lives through our alternate t
 ## UNIQUENESS
 
 ## ADVANTAGES/STRENGTH 
-1.  Imagine having an opportunity of booking a ticket at your convenient with a lot of option of choosing a comfortable, secured and cheap ticket price. Which one will you go for?Fasta gives you the list of transport’s company around you, their services, prices and discount rate. It’s awesome?You save money from securing an expensive ticket.
-2.  FASTA will give you a list of approved local riders which will prevent you from paying twice of the supposed price (for visitors).Difference between an individual using FASTA APP with anotherUsing FASTA APP:
+1.  Imagine having an opportunity to know before and realtime what incidence had happened on your trip direction like; traffic rate, congestion, accident, armed robbery, etc and an option of booking a ticket at your convenient with a lot of option of choosing a comfortable, secured and cheap ticket price. Fasta gives you the list of transport’s company around you, and even hook them up to provide you with options about their services, prices and discount rate. It’s awesome? You save money by cheap ticket.
+2.  FASTA will give you a list of approved local transport providers which will allow you call any nearby providers and even provides an opportunity for a user to list as a local provider.
 3.  Life will be more secure and safeYou save money in terms of transportation Save time by avoiding traffic congestion
 4.  Schedule your journey at your convenient
 ## CHALLENGES/WEAKNESS 
