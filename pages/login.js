@@ -19,14 +19,15 @@ import { TextSmall } from "../components/Text/Body";
 
 const MainStyle = styled.main`
   height: calc(100vh - 78px);
+  margin: 0 auto;
 `;
 
 const Login = ({loggedIn, setLoggedIn, user, setUser, getUrl, handleToast }) => {
   // console.log("loggedIn:", loggedIn);
   const [loading, setLoading] = useState(false);
-  
+
   const { register, handleSubmit, errors } = useForm({ validateCriteriaMode: "all" });
- 
+
   const apiUrl = getUrl();
 
 //  sign in
@@ -36,8 +37,8 @@ const signIn = async(ev) => {
 
 try {
       const res = await fetch(`${apiUrl}/users/login`, {
-                              method: "POST", 
-                              body: JSON.stringify(ev), 
+                              method: "POST",
+                              body: JSON.stringify(ev),
                               headers: { "Content-Type" : "application/json"}
                             });
       const response = await res.json();
@@ -55,7 +56,7 @@ try {
 } catch(e) {
       console.log(e, "Some error in connection, Please try again!");
       handleToast("Error in connection", "error");
-} 
+}
   setLoading(false);
 };
 
@@ -65,7 +66,7 @@ const onSubmit = (data) => {
 };
 
 useEffect(() => {
-  localStorage.setItem("user", JSON.stringify(user)); 
+  localStorage.setItem("user", JSON.stringify(user));
 }, [user]);
 
 
@@ -82,7 +83,7 @@ useEffect(() => {
 
       <Header />
 
-      <MainStyle className="flex flex-col items-center justify-between">
+      <MainStyle className="flex flex-col items-center max-w-2xl justify-between">
         <form onSubmit={handleSubmit(onSubmit)} className="w-11/12 mt-32">
           <ToastContainer />
           <H3 color="#43A047" className="text-center mb-4">
