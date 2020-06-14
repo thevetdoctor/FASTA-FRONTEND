@@ -147,7 +147,7 @@ const Layout = (props) => {
         {/* <!-- Manifest.json  --> */}
         <link href="/manifest.json" rel="manifest" />
       </Head>
-      {showPopup && window.innerWidth > 982 && <Popup closePopup={togglePopup} />}
+      {showPopup && window.innerWidth > 998 && <Popup closePopup={togglePopup} />}
       <OnBoardingContainerLayout screen={screen}>
         {props.views.map((view, index) => {
           return (
