@@ -73,7 +73,7 @@ Based on the analysis above (safety, accessibility, saving time and money, knowl
 *   [Nodejs](https://reactjs.org) - Backend framework used
 *   [MongoAtlas](https://www.android.com) - Cloud based Database service used
 ## WEBSITE
-[FASTA](https://frontend-fasta.thevetdoctor.now.sh/)
+[FASTA](https://frontend-fasta.thevetdoctor.vercel.app/)
 ## AUTHORS/TEAM - 002 MEMBERS
 *   [ETCHIE DANIEL](https://github.com/danieletchie) - Frontend Developer, Techincal Team Leader,
 *   [IBE ARUA](https://github.com/myquery) - Backend Developer, Product Manager
