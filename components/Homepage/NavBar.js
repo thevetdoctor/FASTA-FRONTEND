@@ -22,7 +22,7 @@ const DropDownView = styled.div`
   display: flex;
   position: absolute;
   top: 100%;
-  left: 0;
+  right: 0;
   z-index: 50;
   box-shadow: 0px 3px 6px #00000029;
   background: #ffffff;
@@ -33,6 +33,7 @@ const DropDownView = styled.div`
     cursor: pointer;
     background: transparent;
     border: none;
+    padding: 15px;
 
     &:hover {
       color: #0068b0;
